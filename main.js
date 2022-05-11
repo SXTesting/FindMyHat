@@ -52,6 +52,10 @@ class Field {
 
         //set character position as [0][0]
         this.field[startRow][startCol] = pathCharacter;
+     
+        if ((this.field[startCol][startRow]) == hole) {
+            this.generateField();
+        }
     }
 
     runGame() {
