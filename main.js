@@ -66,8 +66,6 @@ class Field {
                 return row.join('');
             }).join('\n');
         console.log(displayString);
-        console.log(getRow);
-        console.log(getCol);
     }
 
     askQuestion() {
